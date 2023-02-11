@@ -1,28 +1,9 @@
-Zero Reference
-==============
-
-Highlight parts of code with no references in [Visual Studio Code](https://github.com/microsoft/vscode).
-
-
-Preview
--------
-
-![Screenshot](images/preview.gif)
-
-Supported Languages
--------------------
-
-* TypeScript
-* JavaScript (note about [jsconfig.json](https://code.visualstudio.com/docs/languages/jsconfig))
-
-
-Installation
-------------
-
-[How to install VSCode extensions](https://code.visualstudio.com/docs/editor/extension-gallery)
-
-
-License
--------
-
-MIT License © Roman Nuritdinov (Ky6uk)
+The project is appendind all names of unused functions to the file result.txt in case of opening the code file with functions or changing the code file with functions. For now it is not checking if function is already saved in file.
+To run extension in vscode:
+1. Download project
+2. In terminal run commands
+  npm install
+  npm run build
+  
+TODO:
+- for now it is not working until opening typescript file than it starts to work
